@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
-
-
 :root {
     --primary-color: #f5e050;
     --dark-gray: #4B5563;
@@ -14,12 +12,31 @@ body {
     margin: 0px;
         
 }
-p {
+
+textarea{
     text-align: center;
 }
 
-h1 {
+h1{
     text-align: center;
+    
+}
+#btn-translate{
+    font-size: large;
+    margin: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    
+    font-family: 'Indie Flower', cursive;
+    background-color: #f5e050;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+
+
 }
 
 h2{
@@ -61,77 +78,45 @@ hr {
     color: white;
 }
 
+/** list **/
+
+
+.list-on-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
 /** navigation **/
 
 .navigation{
     background-color: var(--primary-color);
     color: black;
-    
-}
-.navigation .nav-developer{
-    font-weight: bold;
-    font-size: 2rem;
-}
-
-.navigation .nav-pills {
-    text-align: right;
-}
-
-
-.navigation .links {
-    color: white;
-}
-
-.navigation .link-active {
-    font-weight: bold;
+    padding: 1.1rem;    
 }
 
 /** header **/
-
-.hero {
-    padding: 5rem;
-    text-align: center;
-}
-
 .hero .hero-img {
-    max-width: 600px;
+    max-width: 350px;
     display: block;
     margin: auto;
 }
 
-.hero .hero-heading{
-    color: var(--dark-gray);
-}
-
-.hero .hero-heading .heading-inverted {
-    color: var(--primary-color)
-}
-
-/** section**/
-
-.section{
-    padding: 2rem;
-}
-
-.section h1{
-    text-align: center;
-}
-
-.ow {
-    background-color: var(--off-white);
-}
 
 /** footer**/
 
 .footer {
     background-color: var(--primary-color);
-    padding: 2rem 0rem;
+    padding: 3rem 0rem;
     text-align: center;
     color: black;
 }
 
 .footer .link {
-    color: black
+    color: black;
 }
 
 
