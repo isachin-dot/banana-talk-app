@@ -1,18 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
 
 
 :root {
-    --primary-color: yellow;
+    --primary-color: #f5e050;
     --dark-gray: #4B5563;
     --off-white: #E5E7EB;
 }
 
 
 body {
-    font-family: 'Dancing Script', cursive;;
+    font-family: 'Indie Flower', cursive;
     margin: 0px;
         
+}
+p {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2{
+    text-align: center;
 }
 
 hr {
@@ -78,12 +89,12 @@ hr {
 /** header **/
 
 .hero {
-    padding: 2rem;
+    padding: 5rem;
     text-align: center;
 }
 
 .hero .hero-img {
-    max-width: 350px;
+    max-width: 600px;
     display: block;
     margin: auto;
 }
@@ -115,7 +126,6 @@ hr {
 .footer {
     background-color: var(--primary-color);
     padding: 2rem 0rem;
-    
     text-align: center;
     color: black;
 }
