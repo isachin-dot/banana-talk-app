@@ -10,12 +10,11 @@
 body {
     font-family: 'Indie Flower', cursive;
     margin: 0px;
+    width: 100vw;
         
 }
 
-textarea{
-    text-align: center;
-}
+
 
 h1{
     text-align: center;
@@ -23,18 +22,19 @@ h1{
 }
 #btn-translate{
     font-size: large;
-    margin: 1rem;
+    margin: 1rem auto;
     padding-top: 1rem;
     padding-bottom: 1rem;
     padding-right: 1rem;
     padding-left: 1rem;
     
     font-family: 'Indie Flower', cursive;
-    background-color: #f5e050;
+    background-color: grey;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
     border-top-right-radius: 1rem;
+    border-color:#f5e050 ;
 
 
 }
