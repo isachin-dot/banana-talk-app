@@ -1,2 +1,2 @@
 # banana-talk-app
-translate your language to english
+translate your english language to banana mimion language
